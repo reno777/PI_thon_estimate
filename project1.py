@@ -4,7 +4,7 @@ import fractions
 import random
 import math
 import sys
-sys.path.insert(0, '/home/reno/fall2018/cosc274/randomapi')
+sys.path.insert(0, '/home/reno/fall2018/cosc274/cosc274Project')
 import randomapi
 from randomapi import RandomJSONRPC
 
