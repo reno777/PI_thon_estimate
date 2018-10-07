@@ -6,16 +6,23 @@ To statistically determine the value of Pi based on Ernesto Cesaro's Theorem usi
 
 ## Authors and Sources
 **Authors:** Seth Rasmussen and Chris Patania
-**Sources:** The `randomapi.py` module used in this program was made by Mitchell Cohen under the MIT License and the original source can be found at his [Github Page](https://github.com/mitchchn/randomapi/blob/master/randomapi.py)
+
+**Sources:** The `randomapi.py` module used in this program was made by Mitchell Cohen under the MIT License and the original source can be found at his [Github Page](https://github.com/mitchchn/randomapi)
 
 ## Usage (On *nix platforms)
-To use this program you can clone this repository to your local machine using this command: `git clone https://github.com/reno777/PI_thon_estimate.git`. After you have cloned it navigate to the directory that you cloned it to, change the file permissions with `chmod u+x PI_thon_estimate.py`, and then use the command `python PI_thon_estimate.py` to state the program. 
+To use this program you can clone this repository to your local machine using this command: 
+
+`git clone https://github.com/reno777/PI_thon_estimate.git` 
+
+After you have cloned it navigate to the directory that you cloned it to, change the file permissions with `chmod u+x PI_thon_estimate.py`, and then use the command `python PI_thon_estimate.py` to state the program. 
 
 Once the program is running it will ask the user to input the first seed value, and then immediately ask for the second seed value. Once this has been completed the program will do the rest and output the results once it is done.
 
 ## Dependencies
 1. Python 2.7 
+   
    **Note:** As this program was written in python 2.7 syntax it will not run if you are using python 3. 
+
 2. The randomapi module created by Mitchell Cohen.
 
 ## Pi Estimation
@@ -30,4 +37,7 @@ for i in range(len(rng_list)-1) : #iterates over the length of the list passed t
 The actual estimation of Pi happens in this code: `pi = math.sqrt((6*1000)/total)`
 
 ## Issues
-If the program is not running correctly with `python PI_thon_estimate.py` please ensure that you have python 2.7 installed first. If it is still giving you problems try running it with `python2.7 PI_thon_estimate.py`
+If the program is not running correctly with `python PI_thon_estimate.py` please ensure that you have python 2.7 installed first. 
+
+If it is still giving you problems try running it with `python2.7 PI_thon_estimate.py`
+

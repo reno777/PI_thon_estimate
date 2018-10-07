@@ -12,8 +12,7 @@
 ###
 ### SOURCES: The randomapi module used below was made by Mitchell Cohen 
 ### (mitch.cohen@me.com) and obtained from his Github page 
-### at https://github.com/mitchchn/randomapi/blob/master/randomapi.py under the
-### MIT License.
+### at https://github.com/mitchchn/randomapi under the MIT License.
 """
 
 #The following block is where any modules are imported to be used in the script
